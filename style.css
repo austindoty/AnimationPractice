@@ -109,3 +109,18 @@ header nav button{
     transform: scale(0);
     transition: 0.3s all cubic-bezier(0.08, 0.9, 0.18, 1) 0.2s;
 }
+
+header nav button span{
+    width: 50%;
+    background-color: #fff;
+    height: 3px;
+    display: block;
+    margin: 4px auto;
+    transform: scale(0);
+    transition: 0.6s transform cubic-bezier(0.08, 0.9, 0.18, 1) 0s, 0.3s margin ease-in 0s;
+}
+
+header nav button:hover span{
+    margin: 10px auto;
+}
+
