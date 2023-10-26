@@ -6,20 +6,20 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Function to handle the scroll
     function handleScroll() {
-        container.classList.remove('menuopen');
-        header.classList.toggle('sticky', window.scrollY >= 100);
+        container.classList.remove("menuopen");
+        header.classList.toggle("sticky", window.scrollY >= 100);
     }
 
     // Function to handle menu button click
     function handleMenuButtonClick() {
-        header.classList.remove('sticky');
-        container.classList.toggle('menuopen');
+        header.classList.remove("sticky");
+        container.classList.toggle("menuopen");
     }
 
     // Function to handle anchor links click
     function handleLinkClick(event) {
         event.preventDefault();
-        const targetId = this.getAttribute('href');
+        const targetId = this.getAttribute("href");
         const targetElement = document.querySelector(targetId);
         if (targetElement) {
             targetElement.scrollIntoView({
@@ -32,8 +32,8 @@ document.addEventListener('DOMContentLoaded', function () {
     function handleCloseOutside(event) {
         if (!menuButton.contains(event.target)) {
             // Check if the click was outside the menu button
-            container.classList.remove('menuopen');
-            header.classList.add('sticky');
+            container.classList.remove("menuopen");
+            header.classList.add("sticky");
         }
     }
 
