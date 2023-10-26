@@ -39,7 +39,11 @@ section::after{
 section h1 {
     font-size: 120px;
     z-index: 2;
+}
 
+header{
+    z-index: 9999;
+    position: relative;
 }
 
 header #logo{
