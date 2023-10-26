@@ -126,7 +126,7 @@ header nav button span{
 }
 
 header nav button:hover span{
-    margin: 9px auto;
+    margin: 15px auto;
 }
 
 header.sticky #logo{
@@ -160,7 +160,7 @@ header.sticky nav a{
     
     header nav{
         height: 60px;
-        width: 390px;
+        width: 370px;
     }
 
     header nav button{
