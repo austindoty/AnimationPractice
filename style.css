@@ -128,3 +128,6 @@ header nav button:hover span{
     margin: 10px auto;
 }
 
+header.sticky #logo{
+    opacity: 0;
+}
