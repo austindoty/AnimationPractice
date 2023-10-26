@@ -160,7 +160,7 @@ header.sticky nav a{
     
     header nav{
         height: 60px;
-        width: 350px;
+        width: 300px;
     }
 
     header nav button{
@@ -170,6 +170,7 @@ header.sticky nav a{
 
     header nav a{
         font-size: 16px;
+        padding: 10px 10px;
     }
 
     section h1{
